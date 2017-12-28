@@ -5,17 +5,19 @@ describe('Main', function() {
         // espera que aconteça
         // Entra de dados / método sum(2,2)
         // Espera retornar (4) => true | (3) => false => broken test
+        throw new Error('just an error');
       });
     });
 
     context('Case 2', function() {
-      it('should happen blablabla', function() {
+      it.skip('should happen blablabla', function() {
         // espera que aconteça
         // Entra de dados / método sum(2,2)
         // Espera retornar (4) => true | (3) => false => broken test
+        throw new Error('just an error');
       });
 
-      it('should happen mimimi', function() {
+      it.only('should happen mimimi', function() {
         // espera que aconteça
         // Entra de dados / método sum(2,2)
         // Espera retornar (4) => true | (3) => false => broken test
