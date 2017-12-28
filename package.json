@@ -27,7 +27,8 @@
     "eslint": "^4.14.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
     "react": "^16.2.0",
