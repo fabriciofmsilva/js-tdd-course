@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
 
-describe('Main', function() {
+describe.skip('Main', function() {
 
   var arr;
 
