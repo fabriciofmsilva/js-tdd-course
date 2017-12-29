@@ -26,13 +26,17 @@ describe('FizzBuzz', () => {
     expect(FizzBuzz(10)).to.be.equal('Buzz');
   });
 
-  it ('should return `FizzBuzz` qhen multiple of 3 and 5', () => {
+  it('should return `FizzBuzz` qhen multiple of 3 and 5', () => {
     expect(FizzBuzz(15)).to.be.equal('FizzBuzz');
     expect(FizzBuzz(30)).to.be.equal('FizzBuzz');
   });
 
-  it ('should return the number when non-multiple', () => {
+  it('should return the number when non-multiple', () => {
     expect(FizzBuzz(7)).to.be.equal(7);
+  });
+
+  it('should return 0 when 0', () => {
+    expect(FizzBuzz(0)).to.be.equal(0);
   });
 
 });
