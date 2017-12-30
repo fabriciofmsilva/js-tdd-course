@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "8"
+cache:
+  directions:
+    "node_modules"
+
+before_script:
+  - npm run build:all
+after_script:
+  - npm run test:coverage
