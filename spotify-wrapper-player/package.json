@@ -50,5 +50,8 @@
     "nyc": "^10.2.0",
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "spotify-wrapper": "^2.0.5"
   }
 }
