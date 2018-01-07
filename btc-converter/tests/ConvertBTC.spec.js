@@ -27,7 +27,6 @@ describe('ConvertBTC', () => {
   });
 
   it('should use currency USD and 1 as amount default', (done) => {
-    // https://apiv2.bitcoinaverage.com/convert/global?from=BTC&to=USD&amount=1
     nock('https://apiv2.bitcoinaverage.com')
       .get('/convert/global')
       .query({ from: 'BTC', to: 'USD', amount: 1 })
@@ -42,7 +41,6 @@ describe('ConvertBTC', () => {
   });
 
   it('should use currency USD and 10 as amount', (done) => {
-    // https://apiv2.bitcoinaverage.com/convert/global?from=BTC&to=USD&amount=1
     nock('https://apiv2.bitcoinaverage.com')
       .get('/convert/global')
       .query({ from: 'BTC', to: 'USD', amount: 10 })
@@ -52,6 +50,34 @@ describe('ConvertBTC', () => {
 
     setTimeout(() => {
       expect(consoleStub).to.have.been.calledWith('10 BTC to USD = 16082.23');
+      done();
+    }, 300);
+  });
+
+  it('should use currency BRL and 1 as amount default', (done) => {
+    nock('https://apiv2.bitcoinaverage.com')
+      .get('/convert/global')
+      .query({ from: 'BTC', to: 'BRL', amount: 1 })
+      .reply(200, responseMock);
+
+    convertBTC('BRL');
+
+    setTimeout(() => {
+      expect(consoleStub).to.have.been.calledWith('1 BTC to BRL = 16082.23');
+      done();
+    }, 300);
+  });
+
+  it('should message user when api reply with error', (done) => {
+    nock('https://apiv2.bitcoinaverage.com')
+      .get('/convert/global')
+      .query({ from: 'BTC', to: 'BRL', amount: 1 })
+      .replyWithError('Error');
+
+    convertBTC('BRL');
+
+    setTimeout(() => {
+      expect(consoleStub).to.have.been.calledWith('Something went wrong in the API. Try in a few minutes.');
       done();
     }, 300);
   });
