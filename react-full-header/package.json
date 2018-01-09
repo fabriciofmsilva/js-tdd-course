@@ -42,7 +42,6 @@
   },
   "homepage": "https://github.com/lyef/lyef-react-component#README",
   "devDependencies": {
-    "@personare/react-storybook-decorator-github-corner": "^0.1.4",
     "@storybook/react": "^3.1.5",
     "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.11.4",
