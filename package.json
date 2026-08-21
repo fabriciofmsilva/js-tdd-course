@@ -68,7 +68,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "react": "^16.2.0",
+    "react": "^19.2.8",
     "react-dom": "^16.2.0",
     "mocha": "^11.8.0"
   }
