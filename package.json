@@ -58,7 +58,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^9.1.7",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^3.3.2",
     "nyc": "^11.4.1",
     "rimraf": "^2.6.2",
     "sinon": "^4.1.3",
