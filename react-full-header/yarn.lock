@@ -6,13 +6,6 @@
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@hypnosphi/fuse.js/-/fuse.js-3.0.9.tgz#ea99f6121b4a8f065b4c71f85595db2714498807"
 
-"@personare/react-storybook-decorator-github-corner@^0.1.4":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@personare/react-storybook-decorator-github-corner/-/react-storybook-decorator-github-corner-0.1.5.tgz#2473b1898bd986f0cd0f4664a4b40fa0074a457e"
-  dependencies:
-    react "^15.3.0"
-    react-github-corner "^0.3.0"
-
 "@storybook/addon-actions@^3.2.11":
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.2.11.tgz#4df5ed15369cd3fbe161efaf9e1f88ce7d6c8631"
@@ -1562,8 +1555,8 @@ bowser@^1.0.0, bowser@^1.7.3:
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.7.3.tgz#504bdb43118ca8db9cbbadf28fd60f265af96e4f"
 
 brace-expansion@^1.1.7:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.18.tgz#3ce74d89885136be1535341f8c3d4425c29a5cab"
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
@@ -2044,14 +2037,6 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
-
-create-react-class@^15.6.0:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
 
 cross-spawn@^4:
   version "4.0.2"
@@ -3973,8 +3958,8 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash-es@^4.2.1:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.18.1.tgz#b962eeb80d9d983a900bf342961fb7418ca10b1d"
 
 lodash._getnative@^3.0.0:
   version "3.9.1"
@@ -4053,8 +4038,8 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@4.x.x, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.1, lodash@^4.3.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
 
 lodash@^3.10.1:
   version "3.10.1"
@@ -5259,10 +5244,6 @@ react-dom@^16.0.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-github-corner@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/react-github-corner/-/react-github-corner-0.3.0.tgz#b34c613e6f9cceb49fbe51378b78a9061af4da98"
-
 react-html-attributes@^1.3.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/react-html-attributes/-/react-html-attributes-1.4.1.tgz#97b5ec710da68833598c8be6f89ac436216840a5"
@@ -5370,16 +5351,6 @@ react-treebeard@^2.0.3:
     radium "^0.19.0"
     shallowequal "^0.2.2"
     velocity-react "^1.3.1"
-
-react@^15.3.0:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
-  dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
 
 react@^16.0.0:
   version "16.0.0"

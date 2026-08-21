@@ -49,9 +49,9 @@
     "jsdom": "^11.5.1",
     "jsdom-global": "^3.0.2",
     "mocha": "^3.2.0",
-    "nyc": "^10.2.0",
+    "nyc": "^18.0.0",
     "webpack": "^2.7.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^6.0.0"
   },
   "dependencies": {
     "spotify-wrapper": "^2.0.5"
