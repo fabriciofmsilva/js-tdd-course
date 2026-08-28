@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "react": "^19.2.8",
-    "react-dom": "^16.2.0",
+    "react-dom": "^19.2.8",
     "mocha": "^11.8.0"
   }
 }
